@@ -83,7 +83,7 @@ const App = () => {
             {
                 users.length > 0 ?
                 users.map((user) => <li key={user.id}>{user.name}</li>): 
-                <li>Listado vacío</li>
+                <li>Listado vvacío</li>
             }
         </ul>
         </>
